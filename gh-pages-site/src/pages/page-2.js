@@ -9,7 +9,7 @@ const SecondPage = () => (
     <SEO title="Bands listed" />
     <p><code>Twinklie-doo...</code></p>
     <ul>
-      <li><a href="https://goldforlions.com">Goldforlions</a></li>
+      <li><a href="https://goldforlions.bandcamp.com/releases">Goldforlions</a></li>
       <li></li>
     </ul>
     <Link to="/">Go back to the homepage</Link>
