@@ -21,7 +21,7 @@ const IndexPage = () => (
     </div>
 
     <code>1. <Link to="/page-2/">List of artists represented</Link></code> <br />
-    <code>2. <Link to="https://www.redbubble.com/people/james-campbell/shop?asc=u">Schwagggg</Link></code>
+    <code>2. <Link to="https://www.redbubble.com/shop/ap/54112901">Schwagggg</Link></code>
   </Layout>
 )
 
