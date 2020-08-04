@@ -7,16 +7,23 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
+<div class='ripple-background'>
+  <div class='circle xxlarge shade1'></div>
+  <div class='circle xlarge shade2'></div>
+  <div class='circle large shade3'></div>
+  <div class='circle mediun shade4'></div>
+  <div class='circle small shade5'></div>
+</div>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <code>Hi music people</code>
+    <div style={{ maxWidth: `700px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+
+    <code>1. <Link to="/page-2/">List of artists represented</Link></code> <br />
+    <code>2. <Link to="https://www.redbubble.com/people/james-campbell/shop?asc=u">Schwagggg</Link></code>
   </Layout>
 )
+
 
 export default IndexPage
