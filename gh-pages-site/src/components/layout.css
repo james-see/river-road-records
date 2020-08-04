@@ -625,8 +625,15 @@ body{
   background: #3399ff;
 }
 
-
+.ripple-background {
+  display: flex;
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 25%;
+}
 .circle{
+  margin-top: 100px;
+  margin-left: 25%;
   position: absolute;
   border-radius: 50%;
   background: white;
@@ -635,17 +642,17 @@ body{
 }
 
 .small{
-  width: 200px;
-  height: 200px;
-  left: -100px;
-  bottom: -100px;
-}
-
-.medium{
   width: 400px;
   height: 400px;
   left: -200px;
   bottom: -200px;
+}
+
+.medium{
+  width: 500px;
+  height: 500px;
+  left: -250px;
+  bottom: -250px;
 }
 
 .large{
