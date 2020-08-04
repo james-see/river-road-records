@@ -672,9 +672,9 @@ body{
   margin-left: 35%; */
 }
 .circle{
-  /* margin-top: 100px;
-  margin-left: 25%; */
-  /* position: absolute; */
+  margin-top: 20%;
+  margin-left: 25%;
+  position: absolute;
   border-radius: 50%;
   background: white;
   animation: ripple 15s infinite;
@@ -684,8 +684,8 @@ body{
 .small{
   width: 400px;
   height: 400px;
-  left: -200px;
-  bottom: -200px;
+  /* left: -200px;
+  bottom: -200px; */
 }
 
 .medium{
