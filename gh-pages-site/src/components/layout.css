@@ -621,6 +621,36 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+  .small{
+    width: 200px;
+    height: 200px;
+    left: -100px;
+    bottom: -100px;
+  }
+  .medium{
+    width: 300px;
+    height: 300px;
+    left: -150px;
+    bottom: -150px;
+  }
+  .large{
+    width: 400px;
+    height: 400px;
+    left: -200px;
+    bottom: -200px;
+  }
+  .xlarge{
+    width: 500px;
+    height: 500px;
+    left: -250px;
+    bottom: -250px;
+  }
+  .xxlarge{
+    width: 600px;
+    height: 600px;
+    left: -300px;
+    bottom: -300px;
+  }
 }
 body{
   background: #3399ff;
@@ -628,14 +658,23 @@ body{
 
 .ripple-background {
   display: flex;
-  position: absolute;
-  margin-top: 25%;
-  margin-left: 25%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 30%;
+  margin-left: 35%; */
 }
 .circle{
-  margin-top: 100px;
-  margin-left: 25%;
-  position: absolute;
+  /* margin-top: 100px;
+  margin-left: 25%; */
+  /* position: absolute; */
   border-radius: 50%;
   background: white;
   animation: ripple 15s infinite;
